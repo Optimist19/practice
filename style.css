@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 40vw;
+	min-height: 40vh;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(38, 38, 94);
+}
+
+.container div{
+	margin: auto auto
+}
+
+.container div h3{
+	color: white;
+	font-size: 30px;
+	/* padding-top: 2vh; */
+}
+
+.container div p{
+	font-family: 'Shojumaru', cursive;
+	font-size: 36px;
+	color:rgb(255, 68, 68);
+	background-color: black;
+	padding: 4px;
+	text-align: center;
+}
+
+.container div .btn{
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+	background-color:  rgb(38, 38, 94);
+	color: rgb(224, 220, 220);
+}
+
+.container div .btn button{
+	padding: 6px;
+	border-radius: 3px;
+	border: 1px solid rgb(224, 220, 220); 
+}
+
+@media (max-width: 1042px){
+	.container{
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 30vw;
+		min-height: 30vh;
+		display: flex;
+		justify-content: space-around;
+		background-color: rgb(38, 38, 94);
+	}
+	
+	.container div h3{
+		color: white;
+		font-size: 20px;
+	}
+
+	.container div p{
+		font-family: 'Shojumaru', cursive;
+		font-size: 26px;
+		color:rgb(255, 68, 68);
+		background-color: black;
+		padding: 2px;
+		text-align: center;
+	}
+
+	.container div .btn{
+		display: flex;
+		justify-content: space-between;
+		font-size: 12px;
+		background-color:  rgb(38, 38, 94);
+		color: rgb(224, 220, 220);
+	}
+
+	.container div .btn button{
+		padding: 3px;
+		border-radius: 1px;
+		border: 1px solid rgb(224, 220, 220); 
+	}
+}
+
+@media (max-width: 960px){
+	.container div h3{
+		color: white;
+		font-size: 20px;
+		/* padding-top: 2vh; */
+	}
+
+	.container div p{
+		font-family: 'Shojumaru', cursive;
+		font-size: 14px;
+		color:rgb(255, 68, 68);
+		background-color: black;
+		padding: 1px;
+		text-align: center;
+	}
+
+	.container div .btn{
+		font-size: 10px;
+		background-color:  rgb(38, 38, 94);
+		color: rgb(224, 220, 220);
+	}
+}
+
+
